@@ -1,0 +1,62 @@
+/* Resetting default margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 0; /* Remove default margin */
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent; /* Remove border color */
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ddd; /* Background color on hover/focus */
+}
+
+.navbar-default .navbar-brand {
+    font-weight: bold; /* Make the brand bold */
+}
+
+/* Page heading styles */
+h1 {
+    font-size: 3em; /* Larger font size */
+    margin-bottom: 30px; /* Space below heading */
+}
+
+/* Main content section styles */
+.content-section {
+    padding: 20px; /* Add padding inside the container */
+}
+
+/* Section heading styles */
+.section-heading {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+/* Section styles */
+.section {
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ccc; /* Gray border */
+    padding: 20px; /* Padding inside the section */
+    margin-bottom: 20px; /* Space below each section */
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse {
+        background-color: #f0f0f0; /* Background color of the mobile menu */
+    }
+    .navbar-default .navbar-nav {
+        width: 100%; /* Full width of the dropdown */
+    }
+    .navbar-nav>li {
+        text-align: center;
+    }
+}
